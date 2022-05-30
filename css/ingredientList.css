@@ -1,0 +1,50 @@
+:root {
+    --font--title : 30px;
+    --font--big : 26px;
+    --font--medium : 25px;
+    --font--small : 23px;
+    --main--color : #ea5936;
+    --gray--color : rgb(225, 225, 225);
+  }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a { 
+
+      text-decoration-line: none;
+}
+
+#container {
+    width: 720px;
+    border: 1px solid rgb(160, 160, 160);
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.top {
+    display: flex;
+    padding: 0 32px 0 32px;
+    height: 112px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+.menu {
+    padding-top: 32px;
+    width: 48px;
+    height: 44px;
+  }
+.logo {
+    width: 564px;
+}
+.logo-icon {
+    margin-top: 23px;
+    margin-left: 175px;
+    height: 80px;
+}
+.search {
+    padding-top: 32px;
+    width: 47px;
+    height: 45px;
+}

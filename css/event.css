@@ -1,0 +1,38 @@
+:root {
+  --font-color: #545454;
+  --recipe-title: 30px;
+  --recipe-more: 26px;
+  --recipe-info-title: 26px;
+  --recipe-info-font-size: 23px;
+  --navigation-font-size: 21px;
+  --selected-color: #ea5936;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: var(--font-color);
+}
+
+.container {
+  width: 720px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #acacac;
+  overflow: hidden;
+}
+
+.eventGroup {
+  margin: 20px 32px 349px;
+}
+
+.event {
+  margin-bottom: 14px;
+}
