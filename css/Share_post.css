@@ -5,6 +5,8 @@
     --font--small : 20px;
     --font--date : 18px;
     --main--color : #ea5936;
+    --font-color: #545454;
+    --gray--font--color: #818181;
   }
 
 * {
@@ -15,9 +17,14 @@ a {
     text-decoration-line: none;
 }
 
+span {
+    color: var(--font-color);
+}
 #container {
     width: 720px;
-    border: 1px solid rgb(160, 160, 160);
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #acacac;
     margin: 0 auto;
 }
 
@@ -50,27 +57,28 @@ a {
 }
 .user {
     display: flex;
-    border-bottom: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid #acacac;
 }
 .user .profile {
     height: 100px;
     padding: 15px 15px 15px 0;
 }
 .user-data {
-    display: inline-block;
-    padding-top: 20px;
-    padding-right: 170px;
+    display: inline-grid;
+    padding-top: 15px;
 }
 .user-name {
     font-size: var(--font--big);
 }
 .user-place{
     font-size: var(--font--small);
-    color: rgb(142, 142, 142);
+    color: var(--gray--font--color);
+    margin-top: -18px;
 }
 .user-gage {
-    display: inline-block;
+    display: inline-grid;
     padding-right: 23px;
+    margin-left: 200px;
 }
 .jumsu {
     font-size: var(--font--small);
@@ -80,6 +88,7 @@ a {
 }
 .gage {
     width: 180px;
+    margin-top: -10px;
 }
 .user .lank {
     height: 50px;
@@ -87,7 +96,8 @@ a {
 }
 
 .share-post-text {
-    border-bottom: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid #acacac;
+    display: grid;
 }
 .title {
     font-size: var(--font--title);
@@ -97,7 +107,7 @@ a {
     color: var(--main--color);
 }
 .post-date {
-    color: rgb(142, 142, 142);
+    color: var(--gray--font--color);
     padding-top: 10px;
     font-size: var(--font--date);
 }
@@ -134,7 +144,7 @@ a {
 
 .share-list {
     padding: 20px 32px;
-    border-bottom: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid #acacac;
 }
 .share-main-title {
     padding: 18px 32px 15px 32px;
@@ -144,7 +154,7 @@ a {
     width: 210px;
 }
 .share-text-set{
-    display: inline-block;
+    display: inline-grid;
     position: absolute;
     padding: 16px;
 }
@@ -182,10 +192,15 @@ a {
     width: 250px;
 }
 .share-chat-move {
-    font-size: var(--font--medium);
+    width: 275px;
+    height: 62px;
     background-color: var(--main--color);
-    color: white;
     border-radius: 10px;
-    height: 50px;
-    padding: 7px 95px;
+    margin-top: -5px;
+    padding-top: 10px;
+    text-align: center;
+}
+.share-chat-move span {
+    font-size: var(--font--medium);
+    color: white;
 }

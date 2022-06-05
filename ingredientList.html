@@ -4,28 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ingredientList.css">
+    <link rel="stylesheet" href="css/ingredientList.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/font.css">
     <title>ingredientList</title>
 </head>
 <body>
     <div id=container>
-        <nav class="top">
-            <a href="#">
-                <img src="Home img/메뉴.png" class="menu" alt="menu">
+        <nav class="top-toolbar">
+            <a href="#" target="_blank">
+              <img src="icon/뒤로가기.png" class="back" alt="back" />
             </a>
-            <div class="logo">
-                <img src="Home img/logo.png" class="logo-icon" alt="logo">
-            </div>
-            <img src="Home img/검색.png" class="search" alt="search">
+            <span>식재료</span>
+            <img src="icon/검색.png" class="search" alt="search" />
         </nav>
         <div id="content">
-            안녕하세요
-            
-
-
-
+            <div class="control-bar">
+                <span class="control-a">최신순</span>
+                <span class="control-b">오래된 순</span>
+                <span class="control-b">정확도 순</span>
+                <div class="control-set">
+                    <span class="control-c">기타</span>
+                    <img class="control-icon" src="icon/조절.png" alt="control">
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="img-size">
+                    <img class="main-img" src="image/share/사과사진.png" alt="main image">
+                </div>
+                <div class="indredientBox-text">
+                    <div class="list-text">
+                        <span class="post-title">사과 나눔합니다</span>
+                        <span class="post-content">사과를 선물받았는데 너무 많이..</span>
+                        <span class="post-time">사근동 4분전</span>
+                    </div>
+                    <div class="list-user">
+                        <span class="post-user">작성자: 인디안밥 ·</span>
+                        <img class="lank" src="icon/검정-등급아이콘.png" alt="lank">
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="img-size">
+                    <img class="main-img" src="image/share/연두.jpg" alt="main image">
+                </div>
+                <div class="indredientBox-text">
+                    <div class="list-text">
+                        <span class="post-title">천연 조미료</span>
+                        <span class="post-content">샘표 요리에센스 연두 나눔이요!</span>
+                        <span class="post-time">사근동 5분전</span>
+                    </div>
+                    <div class="list-user">
+                        <span class="post-user">작성자: 봉구 ·</span>
+                        <img class="lank" src="icon/검정-등급아이콘.png" alt="lank">
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="img-size">
+                    <img class="main-img" src="image/share/이배리.jpg" alt="main image">
+                </div>
+                <div class="indredientBox-text">
+                    <div class="list-text">
+                        <span class="post-title">이베리코 삼겹살</span>
+                        <span class="post-content">이베리코 삼겹살 미개봉분 나눔합니다..</span>
+                        <span class="post-time">행당동 9분전</span>
+                    </div>
+                    <div class="list-user">
+                        <span class="post-user">작성자: 가루요리사 ·</span>
+                        <img class="lank" src="icon/검정-등급아이콘.png" alt="lank">
+                    </div>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="img-size">
+                    <img class="main-img" src="image/share/중당.jpg" alt="main image">
+                </div>
+                <div class="indredientBox-text">
+                    <div class="list-text">
+                        <span class="post-title">중국당면</span>
+                        <span class="posst-content">중국당면 300g 한봉지 나눔합니다</span>
+                        <span class="post-time">성수동 10분전</span>
+                    </div>
+                    <div class="list-user">
+                        <span class="post-user">작성자: 도레미 ·</span>
+                        <img class="lank" src="icon/검정-등급아이콘.png" alt="lank">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus">
+            <img class="plus-icon" src="icon/추가.png" alt="plus">
         </div>
     </div>
     <nav class="bottom-toolbar">
@@ -36,8 +105,8 @@
             <span class="home-title">홈</span>
         </div>
         <div class="recipe">
-            <img src="icon/선택된요리색모자.png" class="recipe-img" alt="recipe" />
-            <span class="recipe-icon-title selected">레시피</span>
+            <img src="icon/회색요리색모자 (1).png" class="recipe-img" alt="recipe" />
+            <span class="recipe-icon-title">레시피</span>
         </div>
         <div class="egg">
             <a href="#" target="_blank">
