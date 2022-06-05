@@ -30,7 +30,7 @@ span {
 }
 .top {
     display: flex;
-    padding: 0 32px 0 32px;
+    padding: 0 32px;
     height: 112px;
     border-bottom: 1px solid #acacac;;
 }
