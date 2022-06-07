@@ -28,12 +28,6 @@ span {
     margin: 0 auto;
     padding-bottom: 30px;
 }
-.top {
-    display: flex;
-    padding: 0 32px;
-    height: 112px;
-    border-bottom: 1px solid #acacac;;
-}
 
 /*swiper-slide*/
 .swiper-slide-img {

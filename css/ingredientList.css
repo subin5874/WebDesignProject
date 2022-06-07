@@ -26,12 +26,7 @@ span {
     overflow: hidden;
     margin: 0 auto;
 }
-.top {
-    display: flex;
-    padding: 0 32px 0 32px;
-    height: 112px;
-    border-bottom: 1px solid #acacac;
-}
+
 .search {
     margin-left: 28px;
 }

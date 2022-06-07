@@ -27,12 +27,6 @@ span {
     margin: 0 auto;
     display: flex;
 }
-.top {
-    display: flex;
-    padding: 0 32px;
-    height: 112px;
-    border-bottom: 1px solid #acacac;;
-}
 
 #menu-content {
     width: 610px;
